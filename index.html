@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="jQuery.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <!-- GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="./css/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- BootstrapScripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="./img/izevents.jpg" />
+
+  <title>izevents</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+    <a href="./index.html"><img src="./img/izevents.jpg" alt="head_image"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" id="close_button"></i>
+      <ul>
+        <li><a href="./categories.html">Categories</a></li>
+        <li><a href="./contact_us.html">Contact-Us</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+        <li><a href="./about_us.html">About Us</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" id="open_button"></i>
+    </nav>
+  </header>
+  
+  <section class="home" id="home">
+    <div class="info">
+      <h2>Create Your Own Dream</h2>
+      <h4>Explore the fantstic events.</h4>
+      <a href="">Explore</a>
+    </div>
+    <div class="content">
+      <img src="./img/player.png" alt="">
+    </div>
+  </section>
+  <hr>
+  <section class="features" id="features">
+    <div class="left">
+      <img src="./img/calendar.svg" alt="">
+      <h3>Easy to schedule</h3>
+    </div>
+    <div class="right">
+      <div class="images">
+        <img src="./img/ring.svg" alt="">
+        <img src="./img/glass.svg" alt="">
+        <img src="./img/mask.svg" alt="">
+      </div>
+      <h3>Create Unforgetable Memories</h3>
+    </div>
+  </section>
+
+  <!-- ****************PARTNERS START********************* -->
+  <hr>
+
+  <section class="partners">
+    <h1>OUR PARTNERS</h1>
+    <div class="images">
+      <img src="./img/hmbrgrlogo.png" alt="">
+      <img src="./img/aybu.png" alt="">
+      <img src="./img/arabica.png" alt="">
+      <img src="./img/labcoffelogo.png" alt="">
+    </div>
+  </section>
+  <hr>
+  <!-- ****************PARTNERS END********************* -->
+
+
+
+  <!-- ****************TESTIMONIALS START********************* -->
+
+  <section id="testimonials">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2300" data-pasue="hover">
+          <h2 class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laboriosam,
+            repellat impedit voluptatem minima distinctio.</h2>
+          <img class="testimonial-image" src="./img/glass.svg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item" data-bs-interval="2300">
+          <h2 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, possimus qui!
+            Laboriosam est ullam corporis totam quaerat eum. Ullam, eos?</h2>
+          <img class="testimonial-image" src="./img/glass.svg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- ****************TESTIMONIALS END********************* -->
+
+  <!-- ****************FOOTER START********************* -->
+  <div class="container"></div>
+  <footer>
+    <!-- Footer main -->
+    <section class="ft-main">
+      <div class="ft-main-item">
+        <h2 class="ft-title">About</h2>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="ft-main-item">
+        <h2 class="ft-title">Resources</h2>
+        <ul>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">eBooks</a></li>
+          <li><a href="#">Webinars</a></li>
+        </ul>
+      </div>
+      <div class="ft-main-item">
+        <h2 class="ft-title">Contact</h2>
+        <ul>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer social -->
+    <section class="ft-social">
+      <ul class="ft-social-list">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </section>
+
+    <!-- Footer legal -->
+    <section class="ft-legal">
+      <ul class="ft-legal-list">
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li>&copy; 2019 Copyright Nowrap Inc.</li>
+      </ul>
+    </section>
+  </footer>
+
+  <!-- ****************FOOTER END********************* -->
+
+</body>
+
+</html>
